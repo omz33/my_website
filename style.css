@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+ 
+}
+body {
+    color: #40514e;
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather", serif;
+  }
+  h1{
+    color: #BF3131;
+    font-size: 90px;
+    margin: 50px auto 0 auto;
+    font-family: "Sacramento", cursive;
+  }  
+  h2 {
+    color: #BF3131;
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    font-weight: normal;
+    padding-top: 10px; text-align: center;
+  }
+  h3 {
+    color: #BF3131;
+    font-family: "Montserrat", sans-serif;
+  }
+  p {
+    line-height: 2;
+  }
+  .intro {
+    width: 30%;
+    margin: auto;
+  } 
+  
+  
+  .top-container {
+    background-color: #7D0A0A;
+    position: relative;
+    padding-top: 100px;
+   
+    
+  }
+  .top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+  }
+  .bottom-cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+  }
+
+
+  .title-text{
+    text-align: center;
+  }
+  .middle-container {
+    margin: 100px ;
+  }
+
+hr{
+   
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 3%;
+    margin: 100px auto;
+    
+  }
+
+
+  .parent {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 50px;
+  }
+
+    a {
+        color: #BF3131;
+        font-family: "Montserrat", sans-serif;
+        margin: 10px 20px;
+        text-decoration: none;
+      }
+a:hover{
+    color: #e4f9f5;
+}
+.btn{
+    background: #7D0A0A;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+ 
+}
+.btn:hover{
+  background-color: #BF3131;
+}
+.bottom-containar{
+    background: #7D0A0A;
+   margin-top: 30px;
+    height: 170px;
+    
+ 
+    
+    
+}
+
+
+ul{
+    list-style: none;
+}
+.copyright{
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+   
+}
+@media (max-width: 900px){
+.top-container
+{
+  width: 900px;
+  padding-top: 50px; 
+}
+
+
+.bottom-containar{
+  width: 900px;
+  margin-top: 20px; 
+    height: auto; 
+ 
+}
+
+.linked {
+  padding-left: 20px; 
+  text-align: center;
+}
+.contact-me {
+  text-align: center;
+    position: relative;
+    padding-top: 100px;
+    left: 250px;
+
+}
+.middle-container{
+  text-align: center;
+  position: relative;
+  padding-top: 100px;
+  left: 250px;
+}
+
+}
